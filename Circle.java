@@ -90,7 +90,7 @@ public class Circle
 	 */
 	public double area()
 	{
-		return Math.pow((Math.PI * radius), 2); 
+		return Math.PI * Math.pow(radius, 2); 
 	}	
 	
 	/**
