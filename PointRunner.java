@@ -58,6 +58,22 @@ public class PointRunner
 		System.out.println("Circle " + d); 
 		System.out.println("The diameter of the circle is: " + d.diameter()); 
 		System.out.println("The circumference: " + d.circumference() + ". Area: " + d.area()); 
+		
+		System.out.println(); 
+		
+		//Make a rectangle
+		Rectangle xx = new Rectangle(2.0, 3.0); 
+		System.out.println(xx); 
+		xx.setWidth(5.0); 
+		System.out.println("Length of diagonal is: " + xx.diagonal()); 
+		System.out.println("Perimeter: " + xx.perimeter() + ". Area: " + xx.area()); 
+		
+		System.out.println(); 
+		
+		Square ss = new Square(5); 
+		System.out.println(ss); 
+		ss.setSide(2); 
+		System.out.println("Perimeter: " + ss.perimeter() + ". Area: " + ss.area()); 
 
 	}
 }
